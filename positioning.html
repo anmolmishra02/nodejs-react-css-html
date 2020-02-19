@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		positioning of elements </title>
+		<style>
+			#div1{ background-color: lightcyan;
+				 border: 4px solid black;
+				 margin: 20px;
+				 padding: 30px;
+				 text-align: center;
+				
+			}
+			#div2{ background-color: white;
+				 border: 4px solid black;
+				 margin: 50px;
+				 padding: 50px;
+				 text-align: center;
+				
+			}
+
+			#div1:hover{background-color: red;
+                          height: 50px; 
+                          transition: height 5s,background 4s;
+			 }
+			 div:hover+div{
+			 	background-color: blue;
+			 	transition: background 8s;
+			 }
+			
+		
+			body{
+				background-color: yellow;
+			}
+
+		</style>
+			
+	
+</head>
+<body>
+<div id="div1">this is outer div</div>
+<div id="div2">this is medium div</div>
+<div id="div3">this is inner div</div>
+</body>
+</body>
+</html>
